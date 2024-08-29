@@ -13,7 +13,7 @@ import Ellipse10 from '../../assets/Ellipse10.png'
 import Moon from '../../assets/Moon.png'
 import vector from '../../assets/Vector.png'
 import language from '../../assets/Language.png'
-import settings from '../../assets/settings.png'
+import settings from '../../assets/Settings.png'
 import LogOut from '../../assets/LogOut.png'
 import suadie from '../../assets/suadie.png'
 const Nav = () => {
