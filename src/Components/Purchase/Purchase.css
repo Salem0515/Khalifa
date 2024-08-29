@@ -1,0 +1,96 @@
+.purchase {
+    width: 896px;
+    height: auto;
+    margin-top: 48px;
+    margin-left: 104px;
+  }
+  
+  .purchase h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    text-align: left;
+  }
+  
+  .purchase .counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 16px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 24px;
+  }
+  
+  .purchase .minus_pluse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f4f8fd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .purchase .minus_pluse img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .purchase .minus_pluse img:hover {
+    transform: scale(1.1);
+  }
+  
+  .purchase .minus_pluse h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .the_price {
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f4f8fd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .the_price h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .purchase-btn {
+    width: 185px;
+    height: 48px;
+    background-color: #1dbf73;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .purchase-btn:hover {
+    background-color: #17a65a;
+    transform: scale(1.05);
+  }
+  
+  .purchase-btn:active {
+    background-color: #128a48;
+    transform: scale(0.98);
+  }
+  

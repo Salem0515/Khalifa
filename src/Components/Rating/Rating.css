@@ -1,0 +1,150 @@
+.rating {
+    width: 896px;
+    margin-top: 112px;
+    margin-left: 104px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.title h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #333;
+}
+
+.rating_bars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rating_bars .bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.rating_bars .bar:hover {
+    background-color: #eaeaea;
+}
+
+.rating_bars .bar p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin: 0;
+    flex: 1;
+}
+
+.rating_bars .bar .lonly_star {
+    width: 20px;
+    height: 20px;
+}
+
+.rating_bars .bar .many_stars {
+    width: 120px;
+    height: 20px;
+}
+
+.rating_bars .bar .bar_img {
+    width: 311px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.Comments {
+    width: 896px;
+    height: 766px;
+    margin-top: 16px;
+    background-color: #fff;
+}
+
+.Comments .janeSmith {
+    display: flex;
+    flex-direction: row;
+    margin-left: 21px;
+    margin-top: 30px;
+}
+
+ .this_idiot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.Comments .janeSmith .comment_text p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+
+.Add_coment {
+    display: flex;
+    flex-direction: row;
+    margin-left: 21px;
+    margin-top: 30px;
+}
+
+.Add_coment input {
+    width: 771px;
+height: 168px;
+border-radius: 8px 0px 0px 0px;
+border: none;
+background-color: #eaeaea;
+
+}
+
+.post {
+    width: 185px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    background-color: #1dbf73;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.post:hover {
+    background-color: #17a65a;
+    transform: scale(1.05);
+}
+
+.post:active {
+    background-color: #128a48;
+    transform: scale(0.98);
+  }
+  

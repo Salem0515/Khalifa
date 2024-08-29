@@ -1,0 +1,108 @@
+.mainBar {
+    display: flex;
+    flex: 1.8rem;
+    width: 1440px;
+    height: 106px;
+    margin-left: 180px;
+    transition:
+        background-color 0.5s ease,
+        color 0.5s ease;
+}
+
+body.dark-mode .mainBar {
+    background-color: #1e1e1e; /* Slightly lighter dark background for contrast */
+}
+
+.logo {
+    width: 150px;
+    height: 42px;
+    top: 33px;
+    left: 105px;
+    transition: filter 0.5s ease;
+}
+
+body.dark-mode .logo {
+    filter: invert(1); /* Invert the colors of the logo to match dark mode */
+}
+
+.navComponents {
+    width: 699px;
+    height: 84px;
+    top: 12px;
+    left: 372px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.navComponents img {
+    width: 98px;
+    height: 81px;
+    top: 13px;
+    left: 372px;
+    padding: 12px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+.socialComponents {
+    width: 147px;
+    height: 43px;
+    top: 32px;
+    left: 1188px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.socialComponents img {
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 1188px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.socialComponents .user_icon {
+    width: 43px;
+    height: 43px;
+    top: 32px;
+    left: 1292px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 2px solid #1dbf73;
+}
+
+.dropdown {
+    position: absolute;
+    width: 220px;
+    height: 284px;
+    top: 55px;
+    left: 880px;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+.dropdown li {
+    padding: 5px 10px;
+}
+
+.dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown li img {
+    width: 21px;
+    height: 21px;
+    top: 81px;
+    left: 12px;
+    padding: 1.97px;
+ 
+}
+
+.dropdown li span {
+    margin-left: 4px;
+}
