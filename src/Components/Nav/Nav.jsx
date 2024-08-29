@@ -12,8 +12,6 @@ import bell_2 from '../../assets/Bell2.png'
 import Ellipse10 from '../../assets/Ellipse10.png'
 import Moon from '../../assets/Moon.png'
 import vector from '../../assets/Vector.png'
-import language from '../../assets/language.png'
-import settings from '../../assets/settings.png'
 import LogOut from '../../assets/LogOut.png'
 import suadie from '../../assets/suadie.png'
 const Nav = () => {
@@ -52,8 +50,8 @@ const Nav = () => {
           <li><img src={Ellipse10} alt="" />Ahmed Ali</li>
           <li><img src={vector} alt="" /> My Profile</li>
           <li> <img src={Moon} alt="" onClick={toggleDarkMode} /> Dark Mode</li>
-          <li><img src={language} alt="" />Language <span>العربية</span> <img src={suadie} alt="" /></li>
-          <li><img src={settings} alt="" />Account Settings</li>
+          <li>Language <span>العربية</span> <img src={suadie} alt="" /></li>
+          <li>Account Settings</li>
           <li><img src={LogOut} alt="" />Logout</li>
         </ul>
       )}
